@@ -17,7 +17,9 @@ public class OperationEx5 {
         System.out.println(num3 << 1); //10
         System.out.println(num3); //5
         System.out.println(num3 << 2);//20
-        System.out.println(num3 << 3); //40  * 2^n
-        System.out.println(num3 >> 1); // 00000010 %2^n
+        System.out.println(num3 << 3); //40  << 외쪽으로 이동 * 2^n
+        System.out.println(num3 >> 1); // 00000010 >>오른쪽으로 이동 %2^n
+
+
     }
 }
